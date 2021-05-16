@@ -5,7 +5,8 @@ Automatic script to install and run packetcrypt
 ```
 sudo apt update
 sudo apt install git -y
-
+```
+```
 git clone https://github.com/snaakey/packetcrypt_auto.git
 cd packetcrypt_auto
 chmod +x install.sh
