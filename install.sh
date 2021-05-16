@@ -5,4 +5,4 @@ git clone https://github.com/cjdelisle/packetcrypt_rs --branch develop
 cd packetcrypt_rs
 ~/.cargo/bin/cargo build --release
 chmod +x ~/packetcrypt_auto/start.sh
-./start.sh
+sh ~/packetcrypt_auto/start.sh
