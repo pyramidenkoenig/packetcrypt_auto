@@ -1,5 +1,5 @@
 sudo apt update
-sudo apt install gcc git htop bmon build-essential screen -y
+sudo apt install gcc git htop bmon build-essential screen wget -y
 echo nameserver 5.1.66.255 | sudo tee /etc/resolv.conf
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
 git clone https://github.com/cjdelisle/packetcrypt_rs --branch develop
