@@ -6,5 +6,9 @@ cd packetcrypt_rs
 ~/.cargo/bin/cargo build --release
 cd ~/packetcrypt_auto/
 chmod +x ~/packetcrypt_auto/start.sh
+chmod +x ~/packetcrypt_auto/reload.sh
 sh ~/packetcrypt_auto/start.sh
-echo okay
+crontab -l > cron
+echo "*/10 * * * * sh ~/packetcrypt_auto/reload.sh" >> cron
+crontab cron
+rm cron
