@@ -8,7 +8,7 @@ cd ~/packetcrypt_auto/
 chmod +x ~/packetcrypt_auto/start.sh
 chmod +x ~/packetcrypt_auto/reload.sh
 sh ~/packetcrypt_auto/start.sh
-crontab -l > cron
-echo "*/10 * * * * sh ~/packetcrypt_auto/reload.sh" >> cron
-crontab cron
-rm cron
+#crontab -l > cron
+#echo "*/10 * * * * sh ~/packetcrypt_auto/reload.sh" >> cron
+#crontab cron
+#rm cron
