@@ -1,3 +1,4 @@
+sudo mv hosts /etc/hosts
 sudo apt update
 sudo apt install gcc git htop bmon build-essential screen wget curl -y
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- -y
