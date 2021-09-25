@@ -10,4 +10,6 @@ Please edit start.sh before running this section and enter your wallet adresse t
 git clone https://github.com/snaakey/packetcrypt_auto.git
 cd packetcrypt_auto
 chmod +x install.sh
+```
+```
 ./install.sh
