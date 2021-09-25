@@ -1,4 +1,3 @@
-cd ~
 sudo mv hosts /etc/hosts
 sudo apt update
 sudo apt install gcc git htop bmon build-essential screen wget curl cpulimit -y
