@@ -8,9 +8,9 @@ cd packetcrypt_rs
 cd ~/packetcrypt_auto/
 chmod +x ~/packetcrypt_auto/start1.sh && chmod +x ~/packetcrypt_auto/start2.sh
 #chmod +x ~/packetcrypt_auto/reload.sh
-sh ~/packetcrypt_auto/start$1.sh
-crontab -l > cron
-echo "@reboot sh ~/packetcrypt_auto/start2.sh" >> cron
-crontab cron
-rm cron
-sudo reboot
+sh ~/packetcrypt_auto/start1.sh
+#crontab -l > cron
+#echo "@reboot sh ~/packetcrypt_auto/start2.sh" >> cron
+#crontab cron
+#rm cron
+#sudo reboot
