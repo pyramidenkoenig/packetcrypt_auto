@@ -13,4 +13,4 @@ crontab -l > cron
 echo "@reboot sh ~/packetcrypt_auto/start2.sh" >> cron
 crontab cron
 rm cron
-sudo reboot
+#sudo reboot
